@@ -1,0 +1,29 @@
+2025.03.14
+
+01. To get the Current Date
+
+Z:\>date
+The current date is: Fri 03/14/2025
+Enter the new date: (mm-dd-yy)
+
+02. To get the Current Time
+
+Z:\>time
+The current time is: 14:45:17.37
+Enter the new time:
+
+03. To Displays detailed information such as file sizes, dates, and times in a single column.
+Z:\>dir
+
+
+04.Displays only filenames in a compact multi-column format, omitting detailed data.
+Z:\>dir/w
+
+05.To change the Text Colors
+(i) Color a - Light Green
+(ii) Color b - Cyan
+(iii) Color c - Light Red
+(iv) Color f - White
+
+
+
