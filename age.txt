@@ -1,0 +1,15 @@
+@echo off 
+
+echo Age calculator 
+
+set /p birth_year=Enter your birth year :
+
+echo Today is :%date%
+
+set current_year=%date:~10,4%
+
+set /a age=%current_year%-%birth_year%
+
+echo You are %age% years old!
+
+pause 
