@@ -1,0 +1,30 @@
+{ ~ }  » cal                                                                             ~
+     April 2025
+Su Mo Tu We Th Fr Sa
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30
+
+{ ~ }  » date +%d                                                                        ~
+28
+{ ~ }  » date +%D                                                                        ~
+04/28/25
+{ ~ }  » date +%m                                                                        ~
+04
+{ ~ }  » date +%y                                                                        ~
+25
+{ ~ }  » date +%Y                                                                        ~
+2025
+{ ~ }  » date +%b                                                                        ~
+Apr
+{ ~ }  » date +%B                                                                        ~
+April
+{ ~ }  » date +%a                                                                        ~
+Mon
+{ ~ }  » date +%A                                                                        ~
+Monday
+{ ~ }  » date +%h                                                                        ~
+Apr
+{ ~ }  »     
