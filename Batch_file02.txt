@@ -1,0 +1,8 @@
+//Show basic system information like the username and Windows version.
+
+@echo off 	//Only the output of the commands will appear.
+echo username:%USERNAME%
+echo Windows Version:
+ver
+pause		//pauses the execution of the batch file and waits for the user to press a key to continue
+
