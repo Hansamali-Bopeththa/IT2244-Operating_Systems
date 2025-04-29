@@ -1,0 +1,4 @@
+// To Log Putty
+
+01. Enter the Username
+02. Password
