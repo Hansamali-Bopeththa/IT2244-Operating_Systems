@@ -1,0 +1,36 @@
+{ ~ }  » touch new.tsv                                                                          ~
+{ ~ }  » vi new.tsv                                                                             ~
+{ ~ }  » ls -a                                                                                  ~
+.              .inputrc           .switch01.sh.un~                  ex.sh     num.sh~
+..             .local             .vim                              ex.sh~    practical.sh
+.babunrc       .minttyrc          .viminfo                          fac.sh    Question2.sh
+.bash_profile  .new.sh.un~        .zcompdump                        fib.sh    Question2.sh~
+.bashrc        .num.sh.un~        .zcompdump-DESKTOP-G58L99K-5.0.6  fib.sh~   switch01.sh
+.ex.sh.un~     .oh-my-zsh         .zsh_history                      new.sh    switch01.sh~
+.fac.sh.un~    .pact              .zshrc                            new.tsv
+.fib.sh.un~    .profile           .zsh-update                       new.tsv~
+.gitconfig     .Question2.sh.un~  bin                               num.sh
+{ ~ }  » vi new.tsv                                                                             ~
+{ ~ }  » cut -d$'\t' -f1 new.tsv                                                                ~
+{ ~ }  » vi new.tsv                                                                             ~
+{ ~ }  » cut -d$'\t' -f1 new.tsv                                                                ~
+a      1       2       3
+bb      2       3       4
+cc      3       4       5
+dd      4       5       6
+ee      5       6       7
+ff      6       7       8
+gg      7       8       9
+hh      8       9       10
+{ ~ }  » cut -d " " -f3 new.tsv                                                                 ~
+
+
+
+
+
+
+
+
+{ ~ }  »                                                                                                                                                                                 ~
+
+
