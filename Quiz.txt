@@ -1,0 +1,29 @@
+01. Get 3 numbers from user(a, b, c) and using a and b find the gcd and using b and c find the lcm.
+
+
+
+echo "Enter three numbers (a, b, c):"
+read a b c
+
+# Find GCD of a and b 
+# Start from 1 since 1 is a GCD of all numbers
+gcd=1  
+for ((i=1; i<=a && i<=b; i++)); do
+    if (( a % i == 0 && b % i == 0 )); then
+
+ # Update GCD if both numbers are divisible by i
+        gcd=$i 
+    fi
+done
+
+# Find LCM of b and c 
+lcm=$b
+while (( lcm % c != 0 )); do
+ # Increment by b until it is divisible by c
+    ((lcm += b)) 
+done
+
+
+echo "GCD of $a and $b is: $gcd"
+echo "LCM of $b and $c is: $lcm"
+
