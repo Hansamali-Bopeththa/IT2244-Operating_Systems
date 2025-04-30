@@ -3,17 +3,7 @@
 Outputs for the;
 01.print multiplication table using for loop
 
-02.
-	
-	      *
-       ***
-      *****
-     *******
-    *********
-     *******
-      *****
-       ***
-	      *
+02.using star patterns create a diamond shape
 
 03. sum of fibonnaci numbers
 
