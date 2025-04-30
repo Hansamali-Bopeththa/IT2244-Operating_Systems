@@ -7,12 +7,7 @@ Outputs for the;
 
 03. sum of fibonnaci numbers
 
- 04.
-*****
-*   *
-*   *
-*   *
-*****
+04. using star patterns create a box shape
 
 
 ![output](https://github.com/user-attachments/assets/00beff67-87de-42d0-aff7-57aba91070bd)
