@@ -1,0 +1,49 @@
+01.)
+
+*****
+*   *
+*   *
+*   *
+*****
+
+
+
+rows=5
+cols=5
+
+for ((i=1; i<=rows; i++)); do
+    for ((j=1; j<=cols; j++)); do
+        if [[ $i -eq 1 || $i -eq $rows || $j -eq 1 || $j -eq $cols ]]; then
+            echo -n "*"
+        else
+            echo -n " "
+        fi
+    done
+    echo ""  # Move to the next line
+done
+
+02.)
+
+sum of fibonnaci numbers
+
+
+echo "Enter the number of Fibonacci terms:"
+read n
+
+
+a=0
+b=1
+sum=0
+
+
+for (( i=0; i<n; i++ ))
+do
+    echo -n "$a "  
+    sum=$((sum + a))  
+    temp=$((a + b))   
+    a=$b
+    b=$temp
+done
+
+
+echo -e "\nSum of Fibonacci series up to $n terms: $sum"
