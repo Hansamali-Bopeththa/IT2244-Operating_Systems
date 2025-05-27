@@ -1,0 +1,211 @@
+#include<stdio.h>
+int main()
+{
+	printf("HEllo World");
+	return 0;
+}
+
+//variables
+
+int age; //store integer values
+age=25;
+
+
+#include<stdio.h>
+int main()
+{
+	int age = 25
+	printf(age);
+	//printf("%d",age);
+	
+	return 0;
+}
+
+
+%d/ %i - integers
+%f / %F - float
+%lf - double
+%e - char
+%s - String
+
+//assign new value for same variable
+
+int age=25;
+printf("%d",age);
+
+//printf("c programming ");
+
+age = 31
+printf("\n new age: %d", age);
+
+
+
+#variable naming conventions
+
+can't create variable name with space
+ex: int first name=25;
+
+
+//data types
+
+//Int
+#include<stdio.h>
+int main()
+{
+	int age = 10;
+	printf("%d \n",age);
+	
+	printf("size: %zu", sizeof(age));
+	
+	return 0;
+}
+
+// Decimal
+#include<stdio.h>
+int main()
+{
+	double number=12.45;
+	printf("%lf", number);
+	
+	return 0;
+}
+
+// To get only 2 decimal points
+#include<stdio.h>
+int main()
+{
+	double number=12.45;
+	printf("%.2lf", number);
+	
+	return 0;
+}
+
+//float numbers
+
+#include <stdio.h>
+
+int main() {
+    float number1 = 10.9f;
+    
+    printf("%f\n", number1);  // Prints: 10.900000
+    printf("%.1f\n", number1); // Prints: 10.9
+    
+    return 0;
+}
+
+
+//character
+
+#include<stdio.h>
+int main()
+{
+	char character ='z';
+	printf("%c", character);
+	printf("\n%d",character);
+	
+	return 0;
+}
+
+//take input from the user
+
+#include<stdio.h>
+int main()
+{
+	int age;
+	printf("Enter your age: ");
+	
+	scanf("%d",&age);
+	
+	printf("Age=%d",age);
+	
+	return 0;
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+	double number;
+	char alpha;
+	
+	printf("Enter double input: ");
+	scanf("%lf", &number);
+	printf("\nyour double input is: %lf", number);
+	
+	printf("Enter your char input: ");
+	scanf("%c", &alpha);
+	printf("your char input is: ",alpha)
+
+return 0;
+}
+
+//take multiple outputs together
+double number
+char alpha
+
+printf("Enter inputs: ");
+scanf("%lf %c", &number, &alpha);
+
+
+//comments
+// - single line comments	ctrl+/
+// /**/ - mulptline comments	ctrl+shift+/
+
+
+
+//create a calculator in c 
+
+arithmatic operations
++
+- 
+*
+/
+% - remainder
+
+#include <stdio.h>
+
+int main() {
+    char operator;
+    double num1, num2, result;
+
+    printf("Enter an operator (+, -, *, /, %): ");
+    scanf(" %c", &operator);
+
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &num1, &num2);
+
+    switch (operator) {
+        case '+':
+            result = num1 + num2;
+            printf("Result: %.2lf\n", result);
+            break;
+        case '-':
+            result = num1 - num2;
+            printf("Result: %.2lf\n", result);
+            break;
+        case '*':
+            result = num1 * num2;
+            printf("Result: %.2lf\n", result);
+            break;
+        case '/':
+            if (num2 != 0)
+                printf("Result: %.2lf\n", num1 / num2);
+            else
+                printf("Error! Division by zero.\n");
+            break;
+        case '%':
+            if ((int)num2 != 0)
+                printf("Result: %d\n", (int)num1 % (int)num2);
+            else
+                printf("Error! Division by zero.\n");
+            break;
+        default:
+            printf("Invalid operator.\n");
+    }
+
+    return 0;
+}
+
+
+
