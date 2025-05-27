@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <unistd.h>
+
+int main() {
+    int f1 = fork();
+    int i, sum_child = 0, sum_parent = 0;
+
+    if (f1 < 0) {
+        printf("Fork failed\n");
+        return 1;
+    }
+
+    if (f1 == 0) { // Child process
+        for (i = 1; i <= 5; i++) {
+            printf("Child: %d\n", i);
+            sum_child += i;
+        }
+        printf("Child sum: %d\n", sum_child);
+    } else { // Parent process
+        for (i = 6; i <= 10; i++) {
+            printf("Parent: %d\n", i);
+            sum_parent += i;
+        }
+        printf("Parent sum: %d\n", sum_parent);
+        
+    }
+
+    return 0;
+}
