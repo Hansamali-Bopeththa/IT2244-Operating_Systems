@@ -14,6 +14,8 @@ msgrcv(): Retrieves a message from the queue.
 msgctl(): Deletes the message queue when it's no longer needed.
 
 1: Sender
+
+
 Generate a unique key using ftok(). This key identifies the message queue.
 
 Create (or access) a message queue using msgget(). If it doesn’t exist, it will be created.
@@ -28,6 +30,8 @@ Display the message that was sent.
 
 
 2: Receiver
+
+
 Generate the same unique key (ftok()), so it refers to the same message queue.
 
 Access the existing message queue (msgget()).
