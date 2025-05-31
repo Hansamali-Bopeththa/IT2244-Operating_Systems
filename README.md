@@ -1,6 +1,6 @@
 # IT2244-Operating_Systems
 
-Exersice 
+01. Exersice 
 
 
 IPC using Message Queue
@@ -24,7 +24,7 @@ Received Age: 24
 
 
 
-Send and Receive
+02. Send and Receive
 
 
 ![send and recieve msg](https://github.com/user-attachments/assets/60e1d723-d385-4dec-a1ca-09ed706b3503)
