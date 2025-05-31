@@ -1,26 +1,24 @@
 # IT2244-Operating_Systems
 
 
-01.
+:- The program starts with Process A (parent).
 
+:- It prints its own process ID (getpid()) and its parent process ID (getppid()).
 
-The program starts with Process A (parent).
+:- fork() is called the first time (f1 = fork()), creating Process B.
 
-It prints its own process ID (getpid()) and its parent process ID (getppid()).
+:- If f1 == 0, the child process (B) runs and prints its details.
 
-fork() is called the first time (f1 = fork()), creating Process B.
+:- The parent (A) continues execution.
 
-If f1 == 0, the child process (B) runs and prints its details.
+:- fork() is called the second time (f2 = fork()), creating Process C.
 
-The parent (A) continues execution.
+:- If f2 == 0, the child process (C) runs and prints its details.
 
-fork() is called the second time (f2 = fork()), creating Process C.
+:- The result is three active processes: A (Parent), B (Child of A), and C (Child of A).
 
-If f2 == 0, the child process (C) runs and prints its details.
+:- Each process has a unique process ID (PID), while its parent’s ID is retrieved using getppid().
 
-The result is three active processes: A (Parent), B (Child of A), and C (Child of A).
-
-Each process has a unique process ID (PID), while its parent’s ID is retrieved using getppid().
 
 
 
